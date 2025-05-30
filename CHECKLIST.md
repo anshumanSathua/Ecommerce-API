@@ -6,12 +6,10 @@ A comprehensive checklist of all steps involved in building the Unified Ecommerc
 
 ## 🔰 PHASE 1: Project Setup
 
-- [ ] Initialize project with `npm init -y`
-- [ ] Install TypeScript & setup config:
-  - [ ] `npm install -D typescript ts-node-dev @types/node`
-  - [ ] Create `tsconfig.json`
-- [ ] Install and configure `dotenv`
-- [ ] Setup folder structure:
+- [x] Initialize project with `npm init -y`
+- [x] Install dependencies & setup typescript
+- [x] Install and configure `dotenv`
+- [x] Setup folder structure:
   ```
     src/
   ├── config/
@@ -25,7 +23,7 @@ A comprehensive checklist of all steps involved in building the Unified Ecommerc
   ├── index.ts
   └── server.ts
   ```
-- [ ] Setup basic Express server with health check route
+- [x] Setup basic Express server with health check route
 
 ---
 
